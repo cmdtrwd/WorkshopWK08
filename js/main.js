@@ -11,6 +11,6 @@ function Count(){
     }
     else {
         document.getElementById("title").innerHTML = "Reached the max of 5";
-    }
-    
+        document.getElementById("box").classList.add("active");
+    }    
 }
