@@ -16,5 +16,6 @@ function Count(){
         document.getElementById("title").innerHTML = "Reached the max of 5";
         let box = document.getElementById("box");        
         box.classList.toggle("active");
+        box.parentElement.style.backgroundColor = "#ff0000";
     }    
 }
